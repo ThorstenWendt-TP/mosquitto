@@ -22,3 +22,4 @@
 # need to be built statically.
 apt-get update && apt-get install -y libargon2-dev libedit-dev libtool-bin make libmicrohttpd-dev libsqlite3-dev
 git clone https://github.com/ralight/cJSON ${SRC}/cJSON
+git clone https://github.com/google/libprotobuf-mutator ${SRC}/libprotobuf-mutator
